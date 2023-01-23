@@ -1,0 +1,11 @@
+import time as t
+help(t)
+print("Curent time:",t.ctime())
+print("Curent time in sec:",t.time())
+print("current time after 30sec:",t.ctime(t.time()+30))
+tl = t.localtime()
+print("year:",tl.tm_year)
+print("month:",tl.tm_mon)
+print("day:",tl.tm_mday)
+print("hour:",tl.tm_hour)
+print("minute::",tl.tm_min)
